@@ -20,7 +20,7 @@ public class Main {
 
 		int t = items.size();
 		for (int i = 0; i < t; i++) {
-			System.out.println(items.get(i));
+			System.out.println(items.get(i).getClass().getSimpleName());
 		}
 
 	}
